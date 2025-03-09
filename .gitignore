@@ -1,0 +1,23 @@
+# Archivos y carpetas de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Archivos de entorno
+.env
+
+# Logs
+*.log
+
+# Configuraciones de Docker
+docker-compose.override.yml
+
+# Configuraciones de VS Code
+.vscode/
+
+# Archivos de dbt (puedes incluir otros si es necesario)
+dbt/target/
+dbt/logs/
